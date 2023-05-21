@@ -20,7 +20,7 @@ public class ReportingController {
 	
 	@GetMapping(value = "/search")
 	public String search() {
-		return null;
+		return "Search";
 	}
 
 }
